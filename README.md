@@ -1,6 +1,6 @@
-# ZamaBridge - Confidential ERC20 Bridge
+# Z Bridge - Confidential ERC20 Bridge
 
-A production-ready privacy-preserving bridge that wraps standard ERC20 tokens into confidential ERC7984 tokens using Zama's Fully Homomorphic Encryption (FHE) technology. ZamaBridge enables users to maintain complete privacy while transacting with digital assets on the blockchain.
+A production-ready privacy-preserving bridge that wraps standard ERC20 tokens into confidential ERC7984 tokens using Zama's Fully Homomorphic Encryption (FHE) technology. Z Bridge enables users to maintain complete privacy while transacting with digital assets on the blockchain.
 
 ## Table of Contents
 
@@ -22,11 +22,11 @@ A production-ready privacy-preserving bridge that wraps standard ERC20 tokens in
 
 ## Introduction
 
-ZamaBridge is a groundbreaking decentralized application that leverages **Fully Homomorphic Encryption (FHE)** to provide true privacy for blockchain transactions. Built on Zama's FHEVM (Fully Homomorphic Encryption Virtual Machine), ZamaBridge allows users to convert standard ERC20 tokens into confidential ERC7984 tokens, enabling private transactions while maintaining the security guarantees of blockchain technology.
+Z Bridge is a groundbreaking decentralized application that leverages **Fully Homomorphic Encryption (FHE)** to provide true privacy for blockchain transactions. Built on Zama's FHEVM (Fully Homomorphic Encryption Virtual Machine), Z Bridge allows users to convert standard ERC20 tokens into confidential ERC7984 tokens, enabling private transactions while maintaining the security guarantees of blockchain technology.
 
-Unlike traditional privacy solutions that rely on mixers or zero-knowledge proofs, ZamaBridge uses FHE to perform computations directly on encrypted data, ensuring that sensitive information like balances and transaction amounts remain encrypted at all times - even during smart contract execution.
+Unlike traditional privacy solutions that rely on mixers or zero-knowledge proofs, Z Bridge uses FHE to perform computations directly on encrypted data, ensuring that sensitive information like balances and transaction amounts remain encrypted at all times - even during smart contract execution.
 
-### What Makes ZamaBridge Unique?
+### What Makes Z Bridge Unique?
 
 - **True On-Chain Privacy**: Balances and transaction amounts remain encrypted throughout the entire lifecycle
 - **Computation on Encrypted Data**: Smart contracts can perform operations on encrypted values without decrypting them
