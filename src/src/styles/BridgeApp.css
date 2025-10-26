@@ -1,0 +1,58 @@
+.bridge-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #0f172a;
+}
+
+.bridge-main {
+  width: min(1080px, 94vw);
+  margin: 0 auto 4rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bridge-hero {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.bridge-title {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.bridge-subtitle {
+  font-size: 1rem;
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #475569;
+}
+
+.bridge-status {
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  background: #e8f1ff;
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+}
+
+.bridge-status.error {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #b91c1c;
+}
+
+.bridge-status-message {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.tokens-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
